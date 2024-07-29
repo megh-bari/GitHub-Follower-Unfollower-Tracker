@@ -199,7 +199,7 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    margin-top: -250px; /* Adjust as needed */
+    margin-top: -200px; /* Adjust as needed */
     padding: 20px;
     max-width: 1400px;
   }
