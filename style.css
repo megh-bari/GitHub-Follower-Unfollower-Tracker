@@ -199,9 +199,7 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    margin-top: -200px; /* Adjust as needed */
-    padding: 20px;
-    max-width: 1400px;
+ flex: 0;
   }
   
   nav span {
