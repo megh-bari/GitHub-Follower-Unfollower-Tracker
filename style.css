@@ -176,10 +176,6 @@ footer a:hover {
   }
 }
 
-/* Ensure loader container covers the viewport */
-body {
-  position: relative; /* Make sure the body is positioned relative */
-}
 
 @media (max-width: 768px) {
   nav span {
@@ -204,11 +200,9 @@ body {
 }
 
 @media (max-width: 480px) {
-  .container {
-    flex: 1;
-    margin-top: -100px;
-    box-sizing: border-box;
-  }
+  /* .main-text{
+    margin-top: -70px;
+  } */
 
   footer {
     position: absolute; /* Stick footer at the bottom */
@@ -221,7 +215,10 @@ body {
   nav img {
     height: 35px;
   }
+  body {
+    min-height: 75vh; /* Full viewport height */
 
+  }
   .main-h1 {
     font-size: 1.5em;
   }
