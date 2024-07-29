@@ -303,7 +303,7 @@ h2 {
   }
   #username::placeholder {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 400;
 
   }
   nav img {
@@ -319,16 +319,16 @@ h2 {
     padding: 8px 10px;
     font-weight: 500;
     max-width: 100%;
-    width: 55%;
+    width: 60%;
   }
   .toggle-buttons button {
-    font-size: 0.8rem;
-    padding: 18px 18px;
+    font-size: 0.9rem;
+    padding: 10px 10px;
   }
 
   #username::placeholder {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 400;
 
   }
   nav img {
