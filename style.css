@@ -50,12 +50,11 @@ nav span {
   text-align: center;
   max-width: 800px;
   width: 100%;
-  margin-top: -20px;
   /* margin-bottom: 20px; */
 }
 
 .main-h1 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.2;
   color: #333;
   /* margin-bottom: 10px; */
@@ -199,6 +198,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  .container{
+    /* margin-top: -250px */
+    flex: 0;
+  }
   nav span {
     font-size: 1rem;
   }

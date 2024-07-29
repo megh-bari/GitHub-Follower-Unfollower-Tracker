@@ -284,21 +284,27 @@ h2 {
 }
 
 @media (max-width: 480px) {
-    header h1 {
-        font-size: 1.6rem;
-    }
+  header h1 {
+    font-size: 1.6rem;
+  }
+  nav span {
+    font-size: 1rem;
+    color: #333;
+  }
   #username {
     padding: 8px 10px;
-    font-size: 0.9rem;
     font-weight: 500;
     max-width: 100%;
+    width: 55%;
   }
   .toggle-buttons button {
     font-size: 0.8rem;
     padding: 8px 15px;
   }
   #username::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+
   }
   nav img {
     height: 35px;
@@ -306,18 +312,20 @@ h2 {
 }
 
 @media (max-width: 330px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
+  header h1 {
+    font-size: 1.5rem;
+  }
   #username {
     padding: 8px 10px;
-    font-size: 0.9rem;
     font-weight: 500;
     max-width: 100%;
+    width: 55%;
   }
 
   #username::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+
   }
   nav img {
     height: 35px;
