@@ -10,7 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #333;
   background-color: #f5f5f5;
-  min-height: 100vh; /* Full viewport height */
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -25,7 +25,7 @@ nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #ddd;
   width: 100%;
-  margin: 0; /* Ensure no margin */
+  margin: 0; 
 }
 
 nav img {
@@ -42,7 +42,7 @@ nav span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Center content vertically */
+  justify-content: center;
   padding: 20px;
   max-width: 1400px;
   margin: 0 auto;
@@ -67,11 +67,13 @@ nav span {
   color: #10b981;
   /* margin-bottom: 10px; */
 }
-
+.info{
+margin-bottom: 20px;
+}
 p {
   font-size: 1.1em;
   color: #666;
-  /* margin-bottom: 20px; */
+  
 }
 
 button {
@@ -118,8 +120,8 @@ footer {
   padding: 10px;
   background-color: #f0f0f0;
   width: 100%;
-  position: absolute; /* Absolute positioning */
-  bottom: 0; /* Stick to bottom */
+  position: absolute; 
+  bottom: 0;
 }
 
 
@@ -138,29 +140,28 @@ footer a:hover {
   fill: black;
 }
 
-/* Full-width loader container */
+
 .loader-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 4px; /* Set the height of the loader line */
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  height: 4px; 
+  background: rgba(255, 255, 255, 0.8); 
   display: flex;
   align-items: center;
-  z-index: 1000; /* Ensure it's above other content */
-  display: none; /* Hide by default */
+  z-index: 1000; 
+  display: none; 
 }
 
-/* Loader animation */
+
 .loader {
   height: 100%;
   width: 0;
-  background: #10b981; /* Color of the loader */
-  animation: load 4s linear infinite; /* Slower animation */
+  background: #10b981;
+  animation: load 4s linear infinite; 
 }
 
-/* Load animation */
 @keyframes load {
   0% {
     width: 0;
@@ -200,12 +201,10 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
-  /* .main-text{
-    margin-top: -70px;
-  } */
+
 
   footer {
-    position: absolute; /* Stick footer at the bottom */
+    position: absolute; 
     bottom: 0;
     width: 100%;
   }
@@ -216,7 +215,7 @@ footer a:hover {
     height: 35px;
   }
   body {
-    min-height: 60vh; /* Full viewport height */
+    min-height: 60vh; 
 
   }
   .main-h1 {
