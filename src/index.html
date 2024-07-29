@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track your GitHub followers and see who’s not following you back with ease.">
+    <link rel="shortcut icon" href="favicon-img.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>GitHub Followers Tracker</title>
+</head>
+<body>
+    
+    <nav>
+        <img src="https://readme.so/readme.svg" height="50px" alt="">
+        <span>GitHub Follower Insightz</span>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>GitHub Follower Tracker</h1>
+        </header>
+        <main>
+            <div class="search-section">
+                <input type="text" id="username" placeholder="Enter GitHub username" required>
+                <button id="search-btn">Search</button>
+            </div>
+            
+            <div class="toggle-buttons">
+                <button id="show-followers-btn">Show Followers</button>
+                <button id="show-unfollowers-btn">Show Not Following You</button>
+            </div>
+            <div class="line-loader" id="line-loader"></div> <!-- Added line loader here -->
+            <div class="results-section">
+                <div class="line-loader" id="line-loader"></div>
+                <div class="followers-section" id="followers-section">
+                    <h2>Followers</h2>
+                    <ul id="followers-list">
+                        <!-- Followers will be populated here -->
+                    </ul>
+                </div>
+                <div class="unfollowers-section" id="unfollowers-section">
+                    <h2>Not Following You</h2>
+                    <ul id="unfollowers-list">
+                        <!-- Unfollowers will be populated here -->
+                    </ul>
+                </div>
+            </div>
+            
+        </main>
+        <a href="https://github.com/megh-bari" target="_blank" class="github-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 0 0-2.53 15.595c.4.074.548-.174.548-.386v-1.356c-2.237.488-2.71-1.08-2.71-1.08-.365-.92-.892-1.166-.892-1.166-.729-.5.056-.49.056-.49.808.056 1.23.828 1.23.828.717 1.226 1.882.872 2.341.668.072-.518.281-.872.51-1.071-1.79-.204-3.68-.894-3.68-3.982 0-.882.317-1.605.84-2.17-.084-.204-.365-1.03.08-2.14 0 0 .68-.217 2.23.828a7.704 7.704 0 0 1 2.029-.273c.688.003 1.38.093 2.028.273 1.54-1.045 2.229-.828 2.229-.828.444 1.11.166 1.936.08 2.14.522.565.84 1.288.84 2.17 0 3.095-1.897 3.774-3.692 3.976.29.249.548.738.548 1.481v2.195c0 .213.147.463.55.387A8 8 0 0 0 8 0z"/>
+            </svg>
+        </a>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin: 0; /* Ensure no margin */
+}
+
+nav img {
+  height: 50px;
+}
+nav span {
+  font-size: 1.2rem;
+  color: #505050;
+  font-weight: 500;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main-text {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  /* margin-bottom: 20px; */
+}
+
+.main-h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  color: #333;
+  /* margin-bottom: 10px; */
+}
+
+.githubText {
+  font-size: 2.5em;
+  color: #10b981;
+  /* margin-bottom: 10px; */
+}
+
+p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #10b981;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d9668;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #10b981;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d9668;
+}
+
+.black-icon {
+  fill: black;
+}
+
+
+/* Full-width loader container */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px; /* Set the height of the loader line */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+  display: none; /* Hide by default */
+}
+
+/* Loader animation */
+.loader {
+  height: 100%;
+  width: 0;
+  background: #10b981; /* Color of the loader */
+  animation: load 4s linear infinite; /* Slower animation */
+}
+
+/* Load animation */
+@keyframes load {
+  0% {
+    width: 0;
+    transform: translateX(-100%);
+  }
+  50% {
+    width: 100%;
+    transform: translateX(0);
+  }
+  100% {
+    width: 0;
+    transform: translateX(100%);
+  }
+}
+
+/* Ensure loader container covers the viewport */
+body {
+  position: relative; /* Make sure the body is positioned relative */
+}
+
+@media (max-width: 768px) {
+  nav span {
+    font-size: 1rem;
+  }
+  .main-h1 {
+    font-size: 2em;
+  }
+
+  .githubText {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 12px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav span {
+    font-size: 1rem;
+  }
+
+  .main-h1 {
+    font-size: 1.5em;
+  }
+
+  .githubText {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 15px 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-text {
+    text-align: left;
+    margin-right: 40px;
+    margin-bottom: 0;
+    flex: 1;
+  }
+
+  .image-container {
+    flex: 1;
+    margin-top: 0;
+  }
+}
