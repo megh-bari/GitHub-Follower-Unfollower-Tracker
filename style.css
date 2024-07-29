@@ -71,7 +71,7 @@ nav span {
 p {
   font-size: 1.1em;
   color: #666;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 button {
@@ -234,6 +234,10 @@ footer a:hover {
   button {
     font-size: 20px;
     padding: 15px 30px;
+  }
+  .black-icon {
+    height: 15px;
+    fill: black;
   }
 }
 

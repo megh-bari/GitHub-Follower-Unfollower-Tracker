@@ -299,7 +299,7 @@ h2 {
   }
   .toggle-buttons button {
     font-size: 0.8rem;
-    padding: 8px 15px;
+    padding: 20px 20px;
   }
   #username::placeholder {
     font-size: 0.9rem;
@@ -320,6 +320,10 @@ h2 {
     font-weight: 500;
     max-width: 100%;
     width: 55%;
+  }
+  .toggle-buttons button {
+    font-size: 0.8rem;
+    padding: 18px 18px;
   }
 
   #username::placeholder {
