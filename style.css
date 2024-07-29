@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  padding: 5px 20px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -31,7 +31,7 @@ nav img {
 }
 nav span {
   font-size: 1.2rem;
-  color: #505050;
+  color: #333;
   font-weight: 500;
 }
 
@@ -198,10 +198,12 @@ body {
 }
 
 @media (max-width: 480px) {
-  .container{
-    /* margin-top: -250px */
-    flex: 0;
+  .container {
+    margin-top: -250px; /* Adjust as needed */
+    padding: 20px;
+    max-width: 1400px;
   }
+  
   nav span {
     font-size: 1rem;
   }
