@@ -206,6 +206,7 @@ body {
 @media (max-width: 480px) {
   .container {
     flex: 1;
+    margin-top: -100px;
     box-sizing: border-box;
   }
 
