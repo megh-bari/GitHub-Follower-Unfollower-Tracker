@@ -40,7 +40,7 @@ nav span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 20px;
   max-width: 1400px;
   margin: 0 auto;
@@ -198,9 +198,6 @@ body {
 }
 
 @media (max-width: 480px) {
-  .container {
- flex: 0;
-  }
   
   nav span {
     font-size: 1rem;
