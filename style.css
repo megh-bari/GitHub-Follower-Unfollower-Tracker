@@ -216,7 +216,7 @@ footer a:hover {
     height: 35px;
   }
   body {
-    min-height: 75vh; /* Full viewport height */
+    min-height: 60vh; /* Full viewport height */
 
   }
   .main-h1 {
