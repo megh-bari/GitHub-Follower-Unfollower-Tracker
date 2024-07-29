@@ -50,11 +50,12 @@ nav span {
   text-align: center;
   max-width: 800px;
   width: 100%;
+  margin-top: -20px;
   /* margin-bottom: 20px; */
 }
 
 .main-h1 {
-  font-size: 2.5em;
+  font-size: 1.2rem;
   line-height: 1.2;
   color: #333;
   /* margin-bottom: 10px; */
@@ -131,7 +132,6 @@ footer a:hover {
 .black-icon {
   fill: black;
 }
-
 
 /* Full-width loader container */
 .loader-container {
